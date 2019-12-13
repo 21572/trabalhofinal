@@ -180,14 +180,14 @@ header.masthead {
   background-size: cover;
 }
 
-header.masthead1 {
+/*header.masthead1 {
   text-align: center;
   color: white;
-  /*background-image: url("../img/header-bg.jpg");*/
+  background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 header.masthead .intro-text {
