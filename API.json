@@ -1,0 +1,12 @@
+{
+	"promo":[
+		{"nome":"NEW","promo":"-50%"},
+		{"nome":"NEW","promo":"-30%"}
+		
+	],
+
+	"promovII":[
+		{"nome":"NEW","promo":"-10%"},
+		{"nome":"NEW","promo":"-5%"}
+	]
+}

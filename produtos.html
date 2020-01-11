@@ -27,6 +27,23 @@
   <link href="css/agency.min.css" rel="stylesheet">
 
 </head>
+<!-- CSS(ANIMAÇÃO DAS LETRAS "ÚLTIMAS NOVIDADES")-->
+<style>
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+</style>
+
+
+
 
 <body id="page-top">
 
@@ -67,14 +84,22 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <!--<div class="intro-lead-in">Sinema Shop</div>-->
+        <!-- HTML (ANIMAÇÃO DE LETRAS)-->
+        <h1 class="ml15">
+           <span class="word">Últimas</span>
+           <span class="word">Novidades!</span>
+        </h1>
+        <!--
+        <div class="intro-heading text-uppercase">Últimas novidades!</div>-->
+        <b>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="about.html">Tell Me More</a>
       </div>
+    </b>
     </div>
   </header>
 
-  <!-- Services -->
+  <!-- Services 
   <section class="page-section" id="services">
     <div class="container">
       <div class="row">
@@ -110,17 +135,19 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
-  <!-- Portfolio Grid -->
+  <!-- PRODUTOS -->
+
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Produtos</h2>
+          <h3 class="section-subheading text-muted">Últimas Novidades!!</h3>
         </div>
       </div>
+      <!-- 1º QUADRADO-->
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
@@ -129,13 +156,24 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/almofada.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
+            <h4>Almofada</h4>
+            <p class="text-muted">Apoiamos causas!</p>
+            <!--preços-->
+            <tbody>
+            <tr>
+              <td> 15€ 
+              </td>
+            </tr>
+          </tbody>
+          <!--fim de preço-->
           </div>
         </div>
+        <!-- FIM DO 1º QUADRADO-->
+
+        <!-- 2º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
@@ -143,13 +181,24 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/hoodie.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+            <h4>Hoodie</h4>
+            <p class="text-muted">Personaliza-a</p>
+            <!--preços-->
+            <tbody>
+            <tr>
+              <td> 35€ 
+              </td>
+            </tr>
+          </tbody>
+          <!--fim de preço-->
           </div>
         </div>
+        <!-- FIM DO 2º QUADRADO-->
+
+        <!-- 3º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
@@ -157,13 +206,24 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/mochila_sinema_bar_V_1.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
+            <h4>Mochila SB</h4>
+            <p class="text-muted">Venha conhecer o Conforto!</p>
+            <p>
+            <tbody>
+            <tr>
+              <td>80€ (<span id=precos style="color: red;"></span>)
+              </td>
+            </tr>
+          </tbody>
+            </p>
           </div>
         </div>
+        <!-- FIM DO 3º QUADRADO-->
+
+        <!-- 4º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
             <div class="portfolio-hover">
@@ -171,13 +231,24 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/caneca.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
+            <h4>Canecas</h4>
+            <p class="text-muted">Beba connosco</p>
+            <!--preços-->
+            <tbody>
+            <tr>
+              <td> 8€ 
+              </td>
+            </tr>
+          </tbody>
+          <!--fim de preço-->
           </div>
         </div>
+        <!--FIM DO 4º QUADRADO-->
+
+        <!-- 5º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
@@ -185,13 +256,24 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/saco.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
+            <h4>Saco Mochila</h4>
+            <p class="text-muted">Transporte o nosso Estilo!</p>
+            <!--preços-->
+            <tbody>
+            <tr>
+              <td> 10€ 
+              </td>
+            </tr>
+          </tbody>
+          <!--fim de preço-->
           </div>
         </div>
+        <!-- FIM DO 5º QUADRADO-->
+
+        <!-- 6º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
             <div class="portfolio-hover">
@@ -199,224 +281,87 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/bone.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
+            <h4>Boné</h4>
+            <p class="text-muted">Venha apanhar bonés!?</p>
+            <!--preços-->
+            <p>
+            <tbody>
+            <tr>
+              <td> 15€ (<span id=precos1 style="color: red;"></span>)
+              </td>
+            </tr>
+          </tbody>
+            </p>
+            <!-- fim de preços-->
           </div>
         </div>
+        <!-- FIM DO 6º QUADRADO-->
       </div>
     </div>
   </section>
 
-  <!-- About -->
-  <section class="page-section" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+  
+  
+    <!-- ASSOCIAÇÕES QUE A EMPRESA APOIA-->
 
-  <!-- Team -->
-  <section class="bg-light page-section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Clients -->
+ <h5 align="center"> Associações com o nosso Apoio</h5>
+<br>
   <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+    <div class="container" align="center">
+      <div class="row" align="center">
+
+        <div class="col-md-3 col-sm-6" >
+          <!--link-->
+          <a href="https://wwf.panda.org/">
+          <!-- final de link-->
+
+           <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/logo-wwf.png" alt="Logo do WWF">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6" style="margin-top: 70px;">
+          <!--link-->
+          <a href="https://www.greenpeace.org/international/">
+          <!-- final de link-->
+
+          <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/gp-logo.jpg" alt="Logo da Greenpeace">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6" style="margin-top: 50px;" >
+          <!--link-->
+          <a href="https://www.savethechildren.org/">
+          <!-- final de link-->
+
+           <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/logo.png" alt=" Logo Save the Children">
           </a>
         </div>
         <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+          <!--link-->
+          <a href="http://www.ajudadeberco.pt/">
+          <!-- final de link-->
+
+           <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/ajuda de berco.jpg" alt="Logo da Ajuda de Berço">
           </a>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
+
       </div>
     </div>
   </section>
+<!--FIM DO APOIO ÀS ASSOCIAÇÕES-->
 
   <!-- Contact -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Contacte nos</h2>
+          <h3 class="section-subheading text-muted">Esclareça as suas dúvidas</h3>
         </div>
       </div>
       <div class="row">
@@ -446,7 +391,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensagem</button>
               </div>
             </div>
           </form>
@@ -469,7 +414,7 @@
 
   <!-- Portfolio Modals -->
 
-  <!-- Modal 1 -->
+  <!-- 1 QUADRADO -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -482,19 +427,29 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <!-- descrição -->
+                <h2 class="text-uppercase">Almofada WWF</h2>
+                <p class="item-intro text-muted">World Wide Fund for Nature</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/almofada.gif" alt="">
+                <p>Neste momento estamos a apoiar a WWF (World Wide Fund For Nature), em que uma percentagem das receitos das vendas destas almofadas vai para a WWF.
+                Apoionos a apoiar!</p>
+                <!--preços-->
+                
+                    <tbody>
+                    <tr>
+                      <td><b> 15€ </b></td>
+                    </tr>
+                  </tbody>
+               
+                  <!--fim de preço-->
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                 
+                  <li><b>Apoio:</b> World Wide Fund For Nature</li>
+                  <li><b>Categoria:</b> Conforto</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Fechar</button>
               </div>
             </div>
           </div>
@@ -503,7 +458,7 @@
     </div>
   </div>
 
-  <!-- Modal 2 -->
+  <!-- 2 QUADRADO -->
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -516,19 +471,31 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <!-- descrição -->
+                <h2 class="text-uppercase">Hoodie</h2>
+                <p class="item-intro text-muted">Personaliza o teu Hoodie à tua maneira!</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/gif-hoodie.gif" alt="">
+                <p>Um hoodie simples e confortável em que tu podes personaliza lo da maneira que quizeres, sê criativo e junta te à família.</p>
+                <!--preços-->
+                    <tbody>
+                    <tr>
+                      <td><b> 35€ </b></td>
+                    </tr>
+                  </tbody>
+                  <!--fim de preço-->
+
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                 <ul class="list-inline">
+                 
+                  <li><b>Tamanhos:</b> S / M / L/ XL/ XXL</li>
+                  <li><b>Cores:</b> Azul, Branco, Preto, Amarelo, Cinza, entre outros....</li>
+                  <li><b>Detalhes:</b> Podes personalizar!</li>
+                  <li><b>Categoria:</b> Conforto & Roupa</li>
+                </ul>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Fechar</button>
               </div>
             </div>
           </div>
@@ -537,7 +504,7 @@
     </div>
   </div>
 
-  <!-- Modal 3 -->
+  <!-- 3 QUADRADO (mochila) -->
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -550,19 +517,32 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <!-- descrição -->
+                <h2 class="text-uppercase">Mochila SB</h2>
+                <p class="item-intro text-muted">O estilo está contigo!</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/mochila.gif" alt="">
+                <p>Mochila confortável e disponível em várias cores. Poderás personaliza la da maneira que quizeres desde de simples ao mais complexo. Tenta e vê o resultado final.</p>
+                <!-- preços-->
+                    <p>
+                <tbody>
+                <tr>
+                  <td>80€ (<span id=precos style="color: red;"></span>)
+                  </td>
+                </tr>
+              </tbody>
+                </p>
+                <!-- final dos preços--->
+
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
+                 <ul class="list-inline">
+                  <li><b>Cores:</b> Azul, Branco, Preto, Amarelo, Cinza, entre outros....</li>
+                  <li><b>Detalhes:</b> Podes personalizar!</li>
+                  <li><b>Categoria:</b> Conforto & Roupa</li>
+                </ul>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Fechar</button>
               </div>
             </div>
           </div>
@@ -571,7 +551,7 @@
     </div>
   </div>
 
-  <!-- Modal 4 -->
+  <!-- 4 QUADRADO -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -584,19 +564,31 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
+                <!-- descrição -->
+                <h2 class="text-uppercase">Canecas</h2>
+                <p class="item-intro text-muted">Beba connosco, beba com moderação!</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/canecas.gif" alt="">
+                <p>Uma simples caneca, para apreciar qualquer bebida que colocares na tua vida!
+                Disponível em qualquer cor.</p>
+                <!--preços-->
+                
+                    <tbody>
+                    <tr>
+                      <td><b> 8€ </b></td>
+                    </tr>
+                  </tbody>
+               
+                  <!--fim de preço-->
+              <ul class="list-inline">
+                 <ul class="list-inline">
+                  <li><b>Cores:</b> Azul, Branco, Preto, Amarelo, Cinza, entre outros....</li>
+                  <li><b>Detalhes:</b> Podes personalizar!</li>
+                  <li><b>Categoria:</b>Bebida</li>
+                </ul>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Fechar</button>
               </div>
             </div>
           </div>
@@ -605,7 +597,7 @@
     </div>
   </div>
 
-  <!-- Modal 5 -->
+  <!-- 5 QUADRADO-->
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -618,19 +610,32 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
+                <!-- descrição -->
+                <h2 class="text-uppercase">Saco Mochila</h2>
+                <p class="item-intro text-muted">Escolha a cor do Seu Saco-Mochila!</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/saco-mochila.gif" alt="">
+                <p>Fácil de transportar coisas simples. Sim! Já está disponível o nosso, o vosso Saco Mochila!</p>
+                <!--preços-->
+                
+                    <tbody>
+                    <tr>
+                      <td><b> 10€ </b></td>
+                    </tr>
+                  </tbody>
+               
+                  <!--fim de preço-->
+              
+                 <ul class="list-inline">
+                 
+                  <li><b>Tamanhos:</b> Único</li>
+                  <li><b>Cores:</b> Azul, Branco, Preto, Amarelo, Cinza, entre outros....</li>
+                  <li><b>Detalhes:</b> Podes personalizar!</li>
+                  <li><b>Categoria:</b> Conforto</li>
                 </ul>
+                
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Fechar</button>
               </div>
             </div>
           </div>
@@ -639,7 +644,7 @@
     </div>
   </div>
 
-  <!-- Modal 6 -->
+  <!--6 QUADRADO -->
   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -652,19 +657,32 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
+                <!-- descrição -->
+                <h2 class="text-uppercase">Boné</h2>
+                <p class="item-intro text-muted">Escolha a sua cor!</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/bone.gif" alt="">
+                <p>Farto de apanhar boné, então tens de apanhar este! Nova coleção novo estilo!</p>
+                 <!--preços-->
+                  <p>
+                  <tbody>
+                  <tr>
+                    <td> 15€ (<span id=precos1 style="color: red;"></span>)
+                    </td>
+                  </tr>
+                </tbody>
+                  </p>
+                  <!-- fim de preços-->
+                 <ul class="list-inline">
+                 
+                  <li><b>Tamanhos:</b> S / M / L/ XL</li>
+                  <li><b>Cores:</b> Azul, Branco, Preto, Amarelo, Cinza, entre outros....</li>
+                  <li><b>Detalhes:</b> Podes personalizar!</li>
+                  <li><b>Categoria:</b> Conforto & Roupa</li>
                 </ul>
+               
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Fechar</button>
               </div>
             </div>
           </div>
@@ -687,6 +705,31 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
 
+  <!--LINK ANIMAÇÃO DE LETRAS-->
+  <script src="mystyle/anime.min.js"></script>
+
+  <!-- API-->
+  <script src="../API_JSON.js"></script>
+
+
+<script>
+  //ANIMAÇÃO DE LETRAS JS
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml15 .word',
+    scale: [14,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 800,
+    delay: (el, i) => 800 * i
+  }).add({
+    targets: '.ml15',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
 </body>
 
 </html>

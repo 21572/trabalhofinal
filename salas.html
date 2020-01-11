@@ -28,6 +28,33 @@
 
 </head>
 
+<!--CSS ANIMAÇÃO DE LETRAS TITULO-->
+<style>
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+</style>
+
+
+
+
 <body id="page-top">
 
   <!-- Navigation -->
@@ -67,22 +94,29 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+
+<!--HTML (ANIMAÇÃO DE LETRAS) TITULO-->
+        <h1 class="ml10">
+            <span class="text-wrapper">
+          <span class="letters">Salas</span>
+             </span>
+        </h1>
+
+        
+        <!--<div class="intro-lead-in"><h6> Diferentes Salas</h6></div>-->
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="about.html">Tell Me More</a>
       </div>
     </div>
   </header>
 
  
-
   <!-- SALAS -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Salas </h2>
-          <h3 class="section-subheading text-muted">As salas do nosso espaço</h3>
+          <h2 class="section-heading text-uppercase">O Espaço</h2>
+          <h3 class="section-subheading text-muted">6 Diferentes Experiências</h3>
         </div>
       </div>
       <div class="row">
@@ -102,6 +136,8 @@
             <p class="text-muted">Vista sob a Cidade</p>
           </div>
         </div>
+        <!-- fim de legenda do 1º quadrado-->
+
         <!-- 2ºQUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
@@ -114,10 +150,12 @@
           </a>
           <div class="portfolio-caption">
             <!--legenda do 2ºquadrado-->
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+            <h4>Inside Sinema</h4>
+            <p class="text-muted">Conforto é connosco!</p>
           </div>
         </div>
+         <!-- fim de legenda do 2ºquadrado-->
+
         <!--3ºQUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
@@ -130,10 +168,12 @@
           </a>
           <div class="portfolio-caption">
             <!--legenda do 3ºquadrado-->
-            <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
+            <h4>Air Sinema</h4>
+            <p class="text-muted">Experiência ao Ar livre</p>
           </div>
         </div>
+        <!--fim de legenda do 3ºquadrado-->
+
         <!--4º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
@@ -146,10 +186,12 @@
           </a>
           <div class="portfolio-caption">
             <!--legenda do 4ºquadrado-->
-            <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
+            <h4>Canudo Room</h4>
+            <p class="text-muted">Sala Principal</p>
           </div>
         </div>
+        <!-- fim de legenda do 4ºquadrado-->
+
         <!-- 5º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
@@ -162,10 +204,12 @@
           </a>
           <div class="portfolio-caption">
             <!--leganda do 5ºquadrado-->
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
+            <h4>PAMPDEC Project</h4>
+            <p class="text-muted">Sala de Exposição</p>
           </div>
         </div>
+        <!--fim de leganda do 5ºquadrado-->
+
         <!--6º QUADRADO-->
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
@@ -178,50 +222,72 @@
           </a>
           <div class="portfolio-caption">
             <!--legenda do 6ºquadrado-->
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
+            <h4>Diamond Room</h4>
+            <p class="text-muted">Tente a sua sorte?!</p>
           </div>
         </div>
+         <!--fim de legenda do 6ºquadrado-->
       </div>
     </div>
   </section>
 
-  
-  <!-- Clients -->
+   <!-- ASSOCIAÇÕES QUE A EMPRESA APOIA-->
+
+ <h5 align="center"> Associações com o nosso Apoio</h5>
+<br>
   <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+    <div class="container" align="center">
+      <div class="row" align="center">
+
+        <div class="col-md-3 col-sm-6" >
+          <!--link-->
+          <a href="https://wwf.panda.org/">
+          <!-- final de link-->
+
+           <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/logo-wwf.png" alt="Logo do WWF">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6" style="margin-top: 70px;">
+          <!--link-->
+          <a href="https://www.greenpeace.org/international/">
+          <!-- final de link-->
+
+          <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/gp-logo.jpg" alt="Logo da Greenpeace">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6" style="margin-top: 50px;" >
+          <!--link-->
+          <a href="https://www.savethechildren.org/">
+          <!-- final de link-->
+
+           <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/logo.png" alt=" Logo Save the Children">
           </a>
         </div>
         <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+          <!--link-->
+          <a href="http://www.ajudadeberco.pt/">
+          <!-- final de link-->
+          
+           <!--imagem-->
+            <img class="img-fluid d-block mx-auto" src="img/logos/ajuda de berco.jpg" alt="Logo da Ajuda de Berço">
           </a>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
+
       </div>
     </div>
   </section>
+<!--FIM DO APOIO ÀS ASSOCIAÇÕES-->
 
   <!-- Contact -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Contacto nos</h2>
+          <h3 class="section-subheading text-muted">Para mais informações</h3>
         </div>
       </div>
       <div class="row">
@@ -272,7 +338,7 @@
   </footer>
   <!-- FIM DO FOOTER-->
 
-  <!-- SALAS-->
+  <!-- SALAS composição por dentro-->
 
   <!-- ROOFTOP -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -308,8 +374,9 @@
       </div>
     </div>
   </div>
+  <!--  FINAL DOS DETALHES DO ROOFTOP -->
 
-  <!-- Modal 2 -->
+  <!-- INSIDE CINEMA-->
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -323,10 +390,10 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Inside Sinema</h2>
+                <p class="item-intro text-muted">Conforto e Privacidade só numa sala!</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>Esta sala irá trazer conforto e privacidade para os nossos clientes, têem à sua disposição uma série de serviços! venha descobrilos com a Inside Cinema!!</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Explore</li>
@@ -342,8 +409,9 @@
       </div>
     </div>
   </div>
+<!--  FINAL DOS DETALHES DO INSIDE CINEMA-->
 
-  <!-- Modal 3 -->
+  <!-- AIR CINEMA-->
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -357,10 +425,10 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">AIR SINEMA</h2>
+                <p class="item-intro text-muted">Onde o ar livre é uma opção!</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>venha disfrotar o cinema ao livre, com o nosso projetor sobre uma parede branca, e uma vista sobre a cidade, juntamente com o nosso bar.                      </p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Finish</li>
@@ -376,8 +444,9 @@
       </div>
     </div>
   </div>
+<!-- FINAL DOS DETALHES DO AIR CINEMA-->
 
-  <!-- Modal 4 -->
+  <!-- CANUDO ROOM -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -391,10 +460,10 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Canudo Room</h2>
+                <p class="item-intro text-muted">Homenagem ao Inventor das 7ª Artes</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>Esta é a Sala principal do nosso espaço, têm este nome pois é uma homagem ao inventor do manifesto das 7 Artes, Ricciotto Canudo. Nesta sala pode apreciar diversas obras de artistas que o nosso espaço patrocina.</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Lines</li>
@@ -411,7 +480,7 @@
     </div>
   </div>
 
-  <!-- Modal 5 -->
+  <!-- PAMPDEC PROJECT -->
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -425,10 +494,11 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">PAMPDEC Project</h2>
+                <p class="item-intro text-muted">Um projeto "quase" no final!</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>Este espaço é utilizado como lugar de exposição das 7 artes que existem, (P)intura, 
+                (A)rquitetura, (M)úsica, (P)oesia, (D)ança, (E)scultura e (C)inema.</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Southwest</li>
@@ -445,7 +515,7 @@
     </div>
   </div>
 
-  <!-- Modal 6 -->
+  <!-- Diamond Room -->
   <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -459,10 +529,10 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <h2 class="text-uppercase">Diamond Room</h2>
+                <p class="item-intro text-muted">Sorte & Azar?! O que sente hoje??</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <p>Propomos assim uma passagem pelo nosso mini casino, onde pode usufruir dos nossos jogos de sorte e azar! Como é que você se sente hoje?</p>
                 <ul class="list-inline">
                   <li>Date: January 2017</li>
                   <li>Client: Window</li>
@@ -492,6 +562,33 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!--link das animações das letras-->
+  <script src="mystyle/anime.min.js"></script>
+<!-- fim de link das animações das letras-->
+
+
+  <script>
+    // ANIMAÇÃO DE LETRAS EM JS TITULO-->
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml10 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml10 .letter',
+    rotateY: [-90, 0],
+    duration: 1300,
+    delay: (el, i) => 45 * i
+  }).add({
+    targets: '.ml10',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  </script>
 
 </body>
 

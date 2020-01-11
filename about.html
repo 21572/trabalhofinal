@@ -26,6 +26,39 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+<!--CSS (ANIMAÇÃO DAS LETRAS) SUBTITULO-->
+<style>
+  
+.ml14 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+</style>
+
 </head>
 
 <body id="page-top">
@@ -67,9 +100,19 @@
 <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+
+<!--HTML (ANIMAÇÃO DE LETRAS) TITULO-->
+         <h1 class="ml14">
+                  <span class="text-wrapper">
+                     <span class="letters">História</span>
+                    <span class="line"></span>
+            </span>
+              </h1>
+            
+<!-- FIM DO HTML (ANIMAÇÃO DE LETRAS) TITULO-->
+        
+        <div class="intro-heading text-uppercase"><h6><i>"Para ter um negócio de sucesso, alguém, algum dia,<p></p> teve que tomar uma atitude de coragem."</i></p></h6></div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="salas.html">Tell Me More</a>
       </div>
     </div>
   </header>
@@ -96,7 +139,7 @@
                   <h5 class="subheading">No Início...</h5>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Ideia de amigos que queriam ter um espaço onde podiam desfrutar o sussego com amigos, onde poderiam ouvir uma boa música e um bom filme.</p>
+                  <p class="text-muted" align="justify">Ideia de amigos que queriam ter um espaço onde podiam desfrutar o sussego com amigos, onde poderiam ouvir uma boa música e um bom filme.</p>
                 </div>
               </div>
             </li>
@@ -110,7 +153,7 @@
                   <h5 class="subheading">Grande Abertura do Espaço</h5>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Concretização de um sonho, abertura de um espaço onde todas as ideias que os amigos tinham passou para a realidade</p>
+                  <p class="text-muted" align="justify">Concretização de um sonho, abertura de um espaço onde todas as ideias que os amigos tinham passou para a realidade</p>
                 </div>
               </div>
             </li>
@@ -124,7 +167,7 @@
                   <h4 class="subheading">Abertura da Loja</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Com o sucesso do espaço, os nosso clientes começaram a pedir por produtos nossos, criamos assim a Loja Sinema, onde uma parte dos lucros criados nesta loja reverte para uma associação que nós pratricionamos.</p>
+                  <p class="text-muted" align="justify">Com o sucesso do espaço, os nosso clientes começaram a pedir por produtos nossos, criamos assim a Loja Sinema, onde uma parte dos lucros criados nesta loja reverte para uma associação que nós pratricionamos.</p>
                 </div>
               </div>
             </li>
@@ -138,7 +181,7 @@
                   <h4 class="subheading">Expanção da Empresa</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Com o Sucesso em Lisboa decidimos expandir o negócio para o Porto e para outras cidades europeias, como é o caso de Estolcomo (Suécia) e Berlim (Alemanha).
+                  <p class="text-muted" align="justify">Com o Sucesso em Lisboa decidimos expandir o negócio para o Porto e para outras cidades europeias, como é o caso de Estolcomo (Suécia) e Berlim (Alemanha).
                   Pensando assim no futuro para abrir nos outros continente.</p>
                 </div>
               </div>
@@ -156,30 +199,47 @@
     </div>
   </section>
 
-<!-- Clients -->
-<h5 align="center"> Associações com o nosso Apoio</h5>
+  <!-- ASSOCIAÇÕES QUE A EMPRESA APOIA-->
+
+ <h5 align="center"> Associações com o nosso Apoio</h5>
 <br>
   <section class="py-5">
     <div class="container" align="center">
       <div class="row" align="center">
 
         <div class="col-md-3 col-sm-6" >
+          <!--link-->
           <a href="https://wwf.panda.org/">
+          <!-- final de link-->
+
+           <!--imagem-->
             <img class="img-fluid d-block mx-auto" src="img/logos/logo-wwf.png" alt="Logo do WWF">
           </a>
         </div>
         <div class="col-md-3 col-sm-6" style="margin-top: 70px;">
+          <!--link-->
           <a href="https://www.greenpeace.org/international/">
+          <!-- final de link-->
+
+          <!--imagem-->
             <img class="img-fluid d-block mx-auto" src="img/logos/gp-logo.jpg" alt="Logo da Greenpeace">
           </a>
         </div>
         <div class="col-md-3 col-sm-6" style="margin-top: 50px;" >
+          <!--link-->
           <a href="https://www.savethechildren.org/">
+          <!-- final de link-->
+
+           <!--imagem-->
             <img class="img-fluid d-block mx-auto" src="img/logos/logo.png" alt=" Logo Save the Children">
           </a>
         </div>
         <div class="col-md-3 col-sm-6">
+          <!--link-->
           <a href="http://www.ajudadeberco.pt/">
+          <!-- final de link-->
+          
+           <!--imagem-->
             <img class="img-fluid d-block mx-auto" src="img/logos/ajuda de berco.jpg" alt="Logo da Ajuda de Berço">
           </a>
         </div>
@@ -187,15 +247,16 @@
       </div>
     </div>
   </section>
+<!--FIM DO APOIO ÀS ASSOCIAÇÕES-->
 
 
-  <!-- Contact -->
+   <!-- Contact -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Contacte nos</h2>
+          <h3 class="section-subheading text-muted">Esclareça as suas dúvidas</h3>
         </div>
       </div>
       <div class="row">
@@ -225,7 +286,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensagem</button>
               </div>
             </div>
           </form>
@@ -233,6 +294,7 @@
       </div>
     </div>
   </section>
+<!-- fim dos contactos-->
 
 <!-- Footer -->
   <footer class="footer">
@@ -260,6 +322,43 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+   <!--link das animações das letras-->
+  <script src="mystyle/anime.min.js"></script>
+<!-- fim de link das animações das letras-->
+
+<script>
+//ANIMAÇÃO DE LETRAS JAVA SCRIPT TITULO
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml14 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml14 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeInOutExpo",
+    duration: 900
+  }).add({
+    targets: '.ml14 .letter',
+    opacity: [0,1],
+    translateX: [40,0],
+    translateZ: 0,
+    scaleX: [0.3, 1],
+    easing: "easeOutExpo",
+    duration: 800,
+    offset: '-=600',
+    delay: (el, i) => 150 + 25 * i
+  }).add({
+    targets: '.ml14',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+
+
+</script>
 
 </body>
 
